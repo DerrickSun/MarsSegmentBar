@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MarsSegmentBar_Example' do
+  pod 'MarsSegmentBar', :path => '../'
+
+  target 'MarsSegmentBar_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
