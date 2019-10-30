@@ -1,0 +1,22 @@
+{
+  "name": "MarsSegmentBar",
+  "version": "0.1.0",
+  "summary": "A short description of MarsSegmentBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xsun0403@163.com/MarsSegmentBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xsun0403@163.com": "gzsunxin@rd.netease.com"
+  },
+  "source": {
+    "git": "https://github.com/xsun0403@163.com/MarsSegmentBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MarsSegmentBar/Classes/**/*"
+}

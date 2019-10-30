@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1482BDBD2368518E00DFEBEE /* MarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1482BDBC2368518E00DFEBEE /* MarsViewController.swift */; };
+		22265A1B834E1CA0A78D054A1821DAC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		84BF1D7247BEA2373496B62C8F8F196C /* Pods-MarsSegmentBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06396145E76F48FA6CAD12BAEC69883F /* Pods-MarsSegmentBar_Tests-dummy.m */; };
+		897D51B91FB657CDCE74A42DD6118E9B /* MarsSegmentBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 169C2A3ED7948C4894CF9498E5F12198 /* MarsSegmentBar-dummy.m */; };
+		96092AC48C836538A06E22E04E128A41 /* MarsSegmentBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B6A05449AD9E50B55387E3F625BF09 /* MarsSegmentBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		966D29FF63E9BB6EF3AA12C8C58EABAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9BCB5D046E3D79C98E427363E975B255 /* Pods-MarsSegmentBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E7FCDBB848AC1BEAD921EAC5AF54B1 /* Pods-MarsSegmentBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F2C5C1B4EDEA442E5FA551BE17D4252 /* MarsSegmentConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BBFE125C42501CED55A29E6149C5C /* MarsSegmentConfig.swift */; };
+		B40135DB27DA260B0BA0B20AB3B4B8E2 /* MarsSegmentBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F8CECED9D7BDFF0ED2B4B46079E5D /* MarsSegmentBar.swift */; };
+		BAA6FBEDCD0D4C83926B84518825F049 /* Pods-MarsSegmentBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6940220F9AD71EF4B3A6E2B2DD19038 /* Pods-MarsSegmentBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0CA47E3B86FC72111FB0651FA376B5E /* UIView+MarsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D582AD5DA62297DF62050DE55E64EA /* UIView+MarsExtension.swift */; };
+		C76DAB10ADF0446815E4C9181499A262 /* Pods-MarsSegmentBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EDAEFB7E37A198FFC76E903AFCBF7A /* Pods-MarsSegmentBar_Example-dummy.m */; };
+		D543FCF3607289FA4D440FC145A40C18 /* MarsSegmentBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B994AC6207CF4F4AD05A35B8C68E5735 /* MarsSegmentBarViewController.swift */; };
+		E10B127EF2A9AD244A429A744428211E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A6554621618C8E4056BA88FC2A123AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 673A3524164C1889653A941D83B4B22F;
+			remoteInfo = MarsSegmentBar;
+		};
+		ED98EFE59550981F3B6C55C886A52561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322ACF483DDF86FD86F0C45C84D860FC;
+			remoteInfo = "Pods-MarsSegmentBar_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D582AD5DA62297DF62050DE55E64EA /* UIView+MarsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+MarsExtension.swift"; path = "MarsSegmentBar/Classes/MarsSegmentBar/UIView+MarsExtension.swift"; sourceTree = "<group>"; };
+		06396145E76F48FA6CAD12BAEC69883F /* Pods-MarsSegmentBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarsSegmentBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		0F95C1E385077FA2472902EFC6C55057 /* Pods-MarsSegmentBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsSegmentBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		114814975058852F77AE8E0377B656B3 /* Pods-MarsSegmentBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsSegmentBar_Tests-Info.plist"; sourceTree = "<group>"; };
+		1482BDBC2368518E00DFEBEE /* MarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsViewController.swift; sourceTree = "<group>"; };
+		169C2A3ED7948C4894CF9498E5F12198 /* MarsSegmentBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarsSegmentBar-dummy.m"; sourceTree = "<group>"; };
+		1A0F8CECED9D7BDFF0ED2B4B46079E5D /* MarsSegmentBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarsSegmentBar.swift; path = MarsSegmentBar/Classes/MarsSegmentBar/MarsSegmentBar.swift; sourceTree = "<group>"; };
+		23B68287A54A4FAE1E116B6E1EA6C502 /* MarsSegmentBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarsSegmentBar.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34BCD662680E3B3C8F888EFAE1E9EE85 /* Pods-MarsSegmentBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsSegmentBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		394BBFE125C42501CED55A29E6149C5C /* MarsSegmentConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarsSegmentConfig.swift; path = MarsSegmentBar/Classes/MarsSegmentBar/MarsSegmentConfig.swift; sourceTree = "<group>"; };
+		3AFA16ADA5988B7B6E22CE303CCE331F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3FDEA107B4CCBD74303760C8A2E9FA59 /* Pods_MarsSegmentBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsSegmentBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		429A59E954218910401F77DEC78E1FE1 /* Pods_MarsSegmentBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsSegmentBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		506D7E7C7DBDC54969C907802A20AAAB /* MarsSegmentBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarsSegmentBar.xcconfig; sourceTree = "<group>"; };
+		56F6083F27CDA4314CCD93D01C47A821 /* Pods-MarsSegmentBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsSegmentBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		57EDAEFB7E37A198FFC76E903AFCBF7A /* Pods-MarsSegmentBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarsSegmentBar_Example-dummy.m"; sourceTree = "<group>"; };
+		59A0BCDED592F7CB074F503094BEE391 /* MarsSegmentBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarsSegmentBar-prefix.pch"; sourceTree = "<group>"; };
+		63843049E633DED33BD77B25E8CDD1A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		77ABA5D9CCF7F9FA20F39330F5AF156F /* Pods-MarsSegmentBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsSegmentBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		83E7FCDBB848AC1BEAD921EAC5AF54B1 /* Pods-MarsSegmentBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarsSegmentBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		8C79872160FBC66DDC1D2A99A4A88863 /* Pods-MarsSegmentBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarsSegmentBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9268755E957ED29C760E30B268276CA8 /* Pods-MarsSegmentBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarsSegmentBar_Tests.modulemap"; sourceTree = "<group>"; };
+		9BF52E2EB31665A4E50803B4B4F4A6B3 /* Pods-MarsSegmentBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarsSegmentBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9CCAB2C33FCBBCD54588DC0DF0E3D43D /* Pods-MarsSegmentBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarsSegmentBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1E9C5FFE2B35F2ADFFD2D11AF9BC469 /* MarsSegmentBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarsSegmentBar-Info.plist"; sourceTree = "<group>"; };
+		A6940220F9AD71EF4B3A6E2B2DD19038 /* Pods-MarsSegmentBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarsSegmentBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B5A5CA59977DBA924D9C5716D50A57D0 /* Pods-MarsSegmentBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarsSegmentBar_Example.modulemap"; sourceTree = "<group>"; };
+		B994AC6207CF4F4AD05A35B8C68E5735 /* MarsSegmentBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarsSegmentBarViewController.swift; path = MarsSegmentBar/Classes/MarsSegmentBar/MarsSegmentBarViewController.swift; sourceTree = "<group>"; };
+		B9EA539592C44946F6BA3C182CC4C1B3 /* MarsSegmentBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MarsSegmentBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBC681961BDAA4A58A9FB87AC59917AC /* Pods-MarsSegmentBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsSegmentBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8FA2804DC0CAD92BA20E7E95FC93C25 /* Pods-MarsSegmentBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsSegmentBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCB968E03074AA21957C88FE3D52F1E5 /* Pods-MarsSegmentBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsSegmentBar_Example-Info.plist"; sourceTree = "<group>"; };
+		EE94A9A4FA1AAC5B11D340A67A010415 /* MarsSegmentBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarsSegmentBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B6A05449AD9E50B55387E3F625BF09 /* MarsSegmentBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarsSegmentBar-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0049F053F01ED8FE74071883E79DA70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10B127EF2A9AD244A429A744428211E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A610FCB23B33CA49C07EEBA7A35A73C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22265A1B834E1CA0A78D054A1821DAC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64E133EBD7209B5E45F9F7958E28923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966D29FF63E9BB6EF3AA12C8C58EABAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04767A7AA70B0643F7228E13E7A49550 /* Pods-MarsSegmentBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9268755E957ED29C760E30B268276CA8 /* Pods-MarsSegmentBar_Tests.modulemap */,
+				9BF52E2EB31665A4E50803B4B4F4A6B3 /* Pods-MarsSegmentBar_Tests-acknowledgements.markdown */,
+				D8FA2804DC0CAD92BA20E7E95FC93C25 /* Pods-MarsSegmentBar_Tests-acknowledgements.plist */,
+				06396145E76F48FA6CAD12BAEC69883F /* Pods-MarsSegmentBar_Tests-dummy.m */,
+				114814975058852F77AE8E0377B656B3 /* Pods-MarsSegmentBar_Tests-Info.plist */,
+				A6940220F9AD71EF4B3A6E2B2DD19038 /* Pods-MarsSegmentBar_Tests-umbrella.h */,
+				BBC681961BDAA4A58A9FB87AC59917AC /* Pods-MarsSegmentBar_Tests.debug.xcconfig */,
+				34BCD662680E3B3C8F888EFAE1E9EE85 /* Pods-MarsSegmentBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-MarsSegmentBar_Tests";
+			path = "Target Support Files/Pods-MarsSegmentBar_Tests";
+			sourceTree = "<group>";
+		};
+		0C400D84C2395D5CFCA6E0ED4055D83C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23B68287A54A4FAE1E116B6E1EA6C502 /* MarsSegmentBar.modulemap */,
+				506D7E7C7DBDC54969C907802A20AAAB /* MarsSegmentBar.xcconfig */,
+				169C2A3ED7948C4894CF9498E5F12198 /* MarsSegmentBar-dummy.m */,
+				A1E9C5FFE2B35F2ADFFD2D11AF9BC469 /* MarsSegmentBar-Info.plist */,
+				59A0BCDED592F7CB074F503094BEE391 /* MarsSegmentBar-prefix.pch */,
+				F0B6A05449AD9E50B55387E3F625BF09 /* MarsSegmentBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MarsSegmentBar";
+			sourceTree = "<group>";
+		};
+		4DA2A6071987CB0AED4028B2A9F5B0BF /* MarsSegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F8CECED9D7BDFF0ED2B4B46079E5D /* MarsSegmentBar.swift */,
+				B994AC6207CF4F4AD05A35B8C68E5735 /* MarsSegmentBarViewController.swift */,
+				394BBFE125C42501CED55A29E6149C5C /* MarsSegmentConfig.swift */,
+				04D582AD5DA62297DF62050DE55E64EA /* UIView+MarsExtension.swift */,
+				1482BDBC2368518E00DFEBEE /* MarsViewController.swift */,
+				E2D14D37215DB0F459E133FFFDF37D50 /* Pod */,
+				0C400D84C2395D5CFCA6E0ED4055D83C /* Support Files */,
+			);
+			name = MarsSegmentBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6B49D26A6F6EAC03898770C088A5E7A0 /* Pods-MarsSegmentBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5CA59977DBA924D9C5716D50A57D0 /* Pods-MarsSegmentBar_Example.modulemap */,
+				9CCAB2C33FCBBCD54588DC0DF0E3D43D /* Pods-MarsSegmentBar_Example-acknowledgements.markdown */,
+				56F6083F27CDA4314CCD93D01C47A821 /* Pods-MarsSegmentBar_Example-acknowledgements.plist */,
+				57EDAEFB7E37A198FFC76E903AFCBF7A /* Pods-MarsSegmentBar_Example-dummy.m */,
+				8C79872160FBC66DDC1D2A99A4A88863 /* Pods-MarsSegmentBar_Example-frameworks.sh */,
+				DCB968E03074AA21957C88FE3D52F1E5 /* Pods-MarsSegmentBar_Example-Info.plist */,
+				83E7FCDBB848AC1BEAD921EAC5AF54B1 /* Pods-MarsSegmentBar_Example-umbrella.h */,
+				0F95C1E385077FA2472902EFC6C55057 /* Pods-MarsSegmentBar_Example.debug.xcconfig */,
+				77ABA5D9CCF7F9FA20F39330F5AF156F /* Pods-MarsSegmentBar_Example.release.xcconfig */,
+			);
+			name = "Pods-MarsSegmentBar_Example";
+			path = "Target Support Files/Pods-MarsSegmentBar_Example";
+			sourceTree = "<group>";
+		};
+		BD7ED3AD05E83B2909E600A5E09582B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE94A9A4FA1AAC5B11D340A67A010415 /* MarsSegmentBar.framework */,
+				3FDEA107B4CCBD74303760C8A2E9FA59 /* Pods_MarsSegmentBar_Example.framework */,
+				429A59E954218910401F77DEC78E1FE1 /* Pods_MarsSegmentBar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4D1175806A4BE1F53DB2E07C3D81620 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B49D26A6F6EAC03898770C088A5E7A0 /* Pods-MarsSegmentBar_Example */,
+				04767A7AA70B0643F7228E13E7A49550 /* Pods-MarsSegmentBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E3046B23CEBE042D0043178107B0D12E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BD7ED3AD05E83B2909E600A5E09582B5 /* Products */,
+				C4D1175806A4BE1F53DB2E07C3D81620 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2D14D37215DB0F459E133FFFDF37D50 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3AFA16ADA5988B7B6E22CE303CCE331F /* LICENSE */,
+				B9EA539592C44946F6BA3C182CC4C1B3 /* MarsSegmentBar.podspec */,
+				63843049E633DED33BD77B25E8CDD1A4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E3046B23CEBE042D0043178107B0D12E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DA2A6071987CB0AED4028B2A9F5B0BF /* MarsSegmentBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5AF5C19B6F898C00DC5F2DD5487708B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96092AC48C836538A06E22E04E128A41 /* MarsSegmentBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E650460F9D6971B74F4C043FF7C00FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCB5D046E3D79C98E427363E975B255 /* Pods-MarsSegmentBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5EE22092592FFD9A426130E24CA0D87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA6FBEDCD0D4C83926B84518825F049 /* Pods-MarsSegmentBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		322ACF483DDF86FD86F0C45C84D860FC /* Pods-MarsSegmentBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2692A0AB29665DA101D06E6A34CA7352 /* Build configuration list for PBXNativeTarget "Pods-MarsSegmentBar_Example" */;
+			buildPhases = (
+				6E650460F9D6971B74F4C043FF7C00FA /* Headers */,
+				D4C85934FF9F5BF4DA21E47FDDA0B3E6 /* Sources */,
+				0049F053F01ED8FE74071883E79DA70B /* Frameworks */,
+				2C5CBF97F3BA1FCCFD48DEDA5201D0A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD42532509B2365457D706CB6BCBAE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-MarsSegmentBar_Example";
+			productName = "Pods-MarsSegmentBar_Example";
+			productReference = 3FDEA107B4CCBD74303760C8A2E9FA59 /* Pods_MarsSegmentBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		673A3524164C1889653A941D83B4B22F /* MarsSegmentBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2EDC5D64D2EFF7E8861738FFC10D21 /* Build configuration list for PBXNativeTarget "MarsSegmentBar" */;
+			buildPhases = (
+				5AF5C19B6F898C00DC5F2DD5487708B1 /* Headers */,
+				4A4A2CCA489FE91E877F98F04DCF02A6 /* Sources */,
+				A610FCB23B33CA49C07EEBA7A35A73C0 /* Frameworks */,
+				1EC9C7879002674AFD22767B84CEEF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsSegmentBar;
+			productName = MarsSegmentBar;
+			productReference = EE94A9A4FA1AAC5B11D340A67A010415 /* MarsSegmentBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFA7E09E97A8FED4F3F601E34777C9B1 /* Pods-MarsSegmentBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8587E80955C7F5DFFDCCC4DC8DEB5C3 /* Build configuration list for PBXNativeTarget "Pods-MarsSegmentBar_Tests" */;
+			buildPhases = (
+				F5EE22092592FFD9A426130E24CA0D87 /* Headers */,
+				53191CBCB1FCD398E7C07074619BB241 /* Sources */,
+				A64E133EBD7209B5E45F9F7958E28923 /* Frameworks */,
+				B1905037742E24766359CC8AE38530FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1C26246089BC47CD1CEA1CB8611BFA /* PBXTargetDependency */,
+			);
+			name = "Pods-MarsSegmentBar_Tests";
+			productName = "Pods-MarsSegmentBar_Tests";
+			productReference = 429A59E954218910401F77DEC78E1FE1 /* Pods_MarsSegmentBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BD7ED3AD05E83B2909E600A5E09582B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				673A3524164C1889653A941D83B4B22F /* MarsSegmentBar */,
+				322ACF483DDF86FD86F0C45C84D860FC /* Pods-MarsSegmentBar_Example */,
+				CFA7E09E97A8FED4F3F601E34777C9B1 /* Pods-MarsSegmentBar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EC9C7879002674AFD22767B84CEEF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5CBF97F3BA1FCCFD48DEDA5201D0A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1905037742E24766359CC8AE38530FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A4A2CCA489FE91E877F98F04DCF02A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897D51B91FB657CDCE74A42DD6118E9B /* MarsSegmentBar-dummy.m in Sources */,
+				B40135DB27DA260B0BA0B20AB3B4B8E2 /* MarsSegmentBar.swift in Sources */,
+				D543FCF3607289FA4D440FC145A40C18 /* MarsSegmentBarViewController.swift in Sources */,
+				1482BDBD2368518E00DFEBEE /* MarsViewController.swift in Sources */,
+				9F2C5C1B4EDEA442E5FA551BE17D4252 /* MarsSegmentConfig.swift in Sources */,
+				C0CA47E3B86FC72111FB0651FA376B5E /* UIView+MarsExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53191CBCB1FCD398E7C07074619BB241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF1D7247BEA2373496B62C8F8F196C /* Pods-MarsSegmentBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C85934FF9F5BF4DA21E47FDDA0B3E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76DAB10ADF0446815E4C9181499A262 /* Pods-MarsSegmentBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA1C26246089BC47CD1CEA1CB8611BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MarsSegmentBar_Example";
+			target = 322ACF483DDF86FD86F0C45C84D860FC /* Pods-MarsSegmentBar_Example */;
+			targetProxy = ED98EFE59550981F3B6C55C886A52561 /* PBXContainerItemProxy */;
+		};
+		ECD42532509B2365457D706CB6BCBAE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarsSegmentBar;
+			target = 673A3524164C1889653A941D83B4B22F /* MarsSegmentBar */;
+			targetProxy = 0A6554621618C8E4056BA88FC2A123AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BBE416D074AFEE2148E2DC9ECA50854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506D7E7C7DBDC54969C907802A20AAAB /* MarsSegmentBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarsSegmentBar/MarsSegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarsSegmentBar/MarsSegmentBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarsSegmentBar/MarsSegmentBar.modulemap";
+				PRODUCT_MODULE_NAME = MarsSegmentBar;
+				PRODUCT_NAME = MarsSegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5170CBDD5E79BFF2859C1B93D7D50913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F95C1E385077FA2472902EFC6C55057 /* Pods-MarsSegmentBar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarsSegmentBar_Example/Pods-MarsSegmentBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarsSegmentBar_Example/Pods-MarsSegmentBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		586D2FADFA6C1BAB08A6FDCD846A7860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC681961BDAA4A58A9FB87AC59917AC /* Pods-MarsSegmentBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarsSegmentBar_Tests/Pods-MarsSegmentBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarsSegmentBar_Tests/Pods-MarsSegmentBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A702CA86646DB9D2D29648F816C5542A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506D7E7C7DBDC54969C907802A20AAAB /* MarsSegmentBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarsSegmentBar/MarsSegmentBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarsSegmentBar/MarsSegmentBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarsSegmentBar/MarsSegmentBar.modulemap";
+				PRODUCT_MODULE_NAME = MarsSegmentBar;
+				PRODUCT_NAME = MarsSegmentBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D5869B4AEFC1B052C96E91D4A290D945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77ABA5D9CCF7F9FA20F39330F5AF156F /* Pods-MarsSegmentBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarsSegmentBar_Example/Pods-MarsSegmentBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarsSegmentBar_Example/Pods-MarsSegmentBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED5FB3C37DC10F45928A9883477EC412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34BCD662680E3B3C8F888EFAE1E9EE85 /* Pods-MarsSegmentBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarsSegmentBar_Tests/Pods-MarsSegmentBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarsSegmentBar_Tests/Pods-MarsSegmentBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2692A0AB29665DA101D06E6A34CA7352 /* Build configuration list for PBXNativeTarget "Pods-MarsSegmentBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5170CBDD5E79BFF2859C1B93D7D50913 /* Debug */,
+				D5869B4AEFC1B052C96E91D4A290D945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8587E80955C7F5DFFDCCC4DC8DEB5C3 /* Build configuration list for PBXNativeTarget "Pods-MarsSegmentBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586D2FADFA6C1BAB08A6FDCD846A7860 /* Debug */,
+				ED5FB3C37DC10F45928A9883477EC412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2EDC5D64D2EFF7E8861738FFC10D21 /* Build configuration list for PBXNativeTarget "MarsSegmentBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBE416D074AFEE2148E2DC9ECA50854 /* Debug */,
+				A702CA86646DB9D2D29648F816C5542A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module MarsSegmentBar {
+  umbrella header "MarsSegmentBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

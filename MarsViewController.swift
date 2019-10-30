@@ -7,9 +7,9 @@
 
 import UIKit
 
-class MarsViewController: UIViewController {
+open class MarsViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

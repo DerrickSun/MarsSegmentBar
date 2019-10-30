@@ -1,0 +1,16 @@
+PODS:
+  - MarsSegmentBar (0.1.0)
+
+DEPENDENCIES:
+  - MarsSegmentBar (from `../`)
+
+EXTERNAL SOURCES:
+  MarsSegmentBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MarsSegmentBar: fb69aee3725e9cb9dc12bf419c7d8289d8bef859
+
+PODFILE CHECKSUM: 83be058808e27fd98203ef1405cfd77dc36be377
+
+COCOAPODS: 1.7.5
