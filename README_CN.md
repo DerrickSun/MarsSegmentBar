@@ -20,3 +20,8 @@ pod 'MarsSegmentBar'
    		
 1. 继承MarsSegmentBarViewController或者直接创建 MarsSegmentBarViewController对象
 2. 调用 setup(items, childVCs, barHeight, barPosition)  
+   参数：items: 按钮标题数组
+        childVCs: 控制器数组
+        barHeight: （可选，默认60）bar高度
+        barPosition (可选，默认top) bar位置  
+ 
