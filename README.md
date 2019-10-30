@@ -1,29 +1,27 @@
 # MarsSegmentBar
 
-[![CI Status](https://img.shields.io/travis/xsun0403@163.com/MarsSegmentBar.svg?style=flat)](https://travis-ci.org/xsun0403@163.com/MarsSegmentBar)
-[![Version](https://img.shields.io/cocoapods/v/MarsSegmentBar.svg?style=flat)](https://cocoapods.org/pods/MarsSegmentBar)
-[![License](https://img.shields.io/cocoapods/l/MarsSegmentBar.svg?style=flat)](https://cocoapods.org/pods/MarsSegmentBar)
-[![Platform](https://img.shields.io/cocoapods/p/MarsSegmentBar.svg?style=flat)](https://cocoapods.org/pods/MarsSegmentBar)
 
-## Example
+### 一个swift版，分页控制器，使用简单，无代码入侵，不依赖其他库 
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+-------
+### Install 安装
 
-## Requirements
-
-## Installation
-
-MarsSegmentBar is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
+-------
+#### Pod 安装
 pod 'MarsSegmentBar'
-```
 
-## Author
+#### 手动安装
 
-xsun0403@163.com, gzsunxin@rd.netease.com
+将“MarsSegmentBar”文件夹拖进你的工程中即可
 
-## License
+-------
 
-MarsSegmentBar is available under the MIT license. See the LICENSE file for more info.
+### Usage 使用
+   		
+1. 继承MarsSegmentBarViewController或者直接创建 MarsSegmentBarViewController对象
+2. 调用 setup(items, childVCs, barHeight, barPosition)  
+   参数：items: 按钮标题数组
+        childVCs: 控制器数组
+        barHeight: （可选，默认60）bar高度
+        barPosition (可选，默认top) bar位置  
+ 

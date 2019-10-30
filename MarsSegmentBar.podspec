@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MarsSegmentBar'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MarsSegmentBar.'
+  s.summary          = 'A segment bar use for switch the page in a view controller'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "A segment bar use for switch the page in a view controller"
 
-  s.homepage         = 'https://github.com/xsun0403@163.com/MarsSegmentBar'
+  s.homepage         = 'https://github.com/DerrickSun/MarsSegmentBar'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xsun0403@163.com' => 'gzsunxin@rd.netease.com' }
-  s.source           = { :git => 'https://github.com/xsun0403@163.com/MarsSegmentBar.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/DerrickSun/MarsSegmentBar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
